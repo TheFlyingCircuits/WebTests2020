@@ -39,10 +39,6 @@ window.ondevicemotion = function(event) {
     self.a.y = event.acceleration.y;
     self.a.z = event.acceleration.z;
 
-    // self.a.x = shelf(self.a.x, 0.05);
-    // self.a.y = shelf(self.a.y, 0.05);
-    // self.a.z = shelf(self.a.z, 0.05);
-
     self.v.x = self.v.x + self.a.x * dt;
     self.v.y = self.v.y + self.a.y * dt;
     self.v.z = self.v.z + self.a.z * dt;
