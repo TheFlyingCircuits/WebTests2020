@@ -2,8 +2,6 @@ const $ = require('jquery'); // load jquery
 const bootstrap = require('bootstrap'); // load bootstrap
 const math = require('mathjs');
 
-// const accelerometer = require('./accelerometer');
-
 let self = {
     a : {
         x: 0,
@@ -21,8 +19,6 @@ let self = {
         z: 0
     }
 };
-
-let tick = function() {};
 
 let now = window.performance.now();
 let last = window.performance.now();
