@@ -5,7 +5,7 @@ const browserify = require('browserify-middleware');
 const app = express(); // create Express.js app
 app.set('strict routing', true);
 
-const sharedModules = ['mathjs', 'jquery', 'bootstrap', 'popper.js'];
+const sharedModules = ['mathjs', 'jquery', 'bootstrap', 'popper.js', 'chart.js'];
 
 // route for bundled file for shared modules
 app.get('/*/bundle.js', browserify(sharedModules, {
@@ -21,6 +21,13 @@ app.get('/:testId', function(req, res) {
 app.get('/:testId/', function(req, res) {
     res.sendFile(path.join(__dirname, './tests', req.params.testId, 'index.html'));
 });
+
+// route for test indicies
+app.get('/:testId/favicon.ico/*', function(req, res) {
+    res.send(404);
+});
+
+
 
 
 // route for js
