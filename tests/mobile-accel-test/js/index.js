@@ -22,9 +22,7 @@ let self = {
     }
 };
 
-let tick = function() {
-
-};
+let tick = function() {};
 
 let now = window.performance.now();
 let last = window.performance.now();
