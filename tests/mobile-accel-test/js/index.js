@@ -32,7 +32,7 @@ let dt = 0;
 
 window.ondevicemotion = function(event) {
     now = window.performance.now();
-    dt = ( now - last ) * 1 / 1000;
+    dt = (now - last) / 1000;
     last = window.performance.now();
 
     self.a.x = event.acceleration.x;
