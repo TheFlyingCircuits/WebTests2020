@@ -410,10 +410,10 @@ cached-path-relative@^1.0.0, cached-path-relative@^1.0.2:
   resolved "https://registry.yarnpkg.com/cached-path-relative/-/cached-path-relative-1.0.2.tgz#a13df4196d26776220cc3356eb147a52dba2c6db"
   integrity sha512-5r2GqsoEb4qMTTN9J+WzXfjov+hjxT+j3u5K+kIVNIwAd99DLCJE9pBIMP1qVeybV6JiijL385Oz0DcYxfbOIg==
 
-chart.js@^2.9.0:
-  version "2.9.0"
-  resolved "https://registry.yarnpkg.com/chart.js/-/chart.js-2.9.0.tgz#ebd700719922ba4963c84a4792f7af88e3a4840c"
-  integrity sha512-qgbY2tObinNst84qlWYiNTvszJSKoyoYiOjqOztUaW88N+Xk7QFJ9PasO+w0G1+NkxJzKzun7kUSZd7oWLCIDQ==
+chart.js@^2.9.4:
+  version "2.9.4"
+  resolved "https://registry.yarnpkg.com/chart.js/-/chart.js-2.9.4.tgz#0827f9563faffb2dc5c06562f8eb10337d5b9684"
+  integrity sha512-B07aAzxcrikjAPyV+01j7BmOpxtQETxTSlQ26BEYJ+3iUkbNKaOJ/nDbT6JjyqYxseM0ON12COHYdU2cTIjC7A==
   dependencies:
     chartjs-color "^2.1.0"
     moment "^2.10.2"
